@@ -1,0 +1,46 @@
+<section class="blk-hist" id="historia">
+  <div class="wrap blk-hist__in">
+    <div class="blk-hist__cab">
+      <p class="blk-hist__eyebrow" data-reveal>Desde 1º de outubro de 1995</p>
+      <div class="blk-hist__num" data-reveal><span data-count="31">31</span><small>anos</small></div>
+      <h2 class="blk-hist__titulo" data-reveal>Duas casas em Joinville e o mesmo jeito de atender</h2>
+      <p class="blk-hist__lead" data-acende>A Sani começou com uma ideia simples: atender com calma, explicar o tratamento e acompanhar o paciente até ele voltar a fazer o que fazia. Três décadas depois, são duas unidades, uma no Itaum e outra no Iririú, e muitas famílias que já passaram por aqui mais de uma vez.</p>
+      <p class="blk-hist__frase" data-reveal><span class="blk-hist__ico"><!--icone:estrela--></span>“Você faz parte da nossa história.” <em>— a frase que a equipe escolheu para os 31 anos</em></p>
+    </div>
+    <div class="blk-hist__casas">
+      <figure data-reveal style="--d:0ms">
+        <!--foto:midia/final/fachada-itaum.jpg|Fachada da Sani Centro de Fisioterapia na Rua Monsenhor Gercino, no Itaum-->
+        <figcaption><strong>Itaum</strong> Rua Monsenhor Gercino, 3304</figcaption>
+      </figure>
+      <figure data-reveal style="--d:120ms">
+        <!--foto:midia/final/fachada-boavista.jpg|Fachada da Sani Centro de Fisioterapia na Rua Tenente Paulo Lopes, no Iririú-->
+        <figcaption><strong>Boa Vista · Iririú</strong> Rua Tenente Paulo Lopes, 218</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-hist{padding-block:var(--sp-section);background:color-mix(in srgb,var(--brand) 6%,var(--bg))}
+.blk-hist__in{display:grid;gap:var(--sp-5)}
+.blk-hist__eyebrow{margin:0;font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-hist__num{display:flex;align-items:baseline;gap:var(--sp-2);margin-top:var(--sp-2);font-family:var(--f-display);font-weight:600;line-height:.9;color:var(--brand)}
+.blk-hist__num span{font-size:clamp(5.5rem,22vw,10rem);letter-spacing:-.04em}
+.blk-hist__num small{font-size:clamp(1.6rem,6vw,2.6rem);font-weight:500;color:var(--ink)}
+.blk-hist__titulo{margin:var(--sp-3) 0 0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-hist__lead{margin:var(--sp-3) 0 0;max-width:40rem;font-size:1.12rem;line-height:1.65;color:var(--ink)}
+.blk-hist__frase{display:flex;flex-wrap:wrap;align-items:center;gap:var(--sp-2);margin:var(--sp-4) 0 0;padding-left:var(--sp-3);border-left:3px solid var(--pulse);font-family:var(--f-display);font-size:1.25rem;color:var(--ink)}
+.blk-hist__frase em{flex-basis:100%;font-family:var(--f-body);font-size:var(--t-sm);font-style:normal;color:var(--ink-dim)}
+.blk-hist__ico{display:inline-flex;width:1.4rem;height:1.4rem;color:var(--brand)}
+.blk-hist__ico svg{width:100%;height:100%}
+.blk-hist__casas{display:grid;gap:var(--sp-3)}
+.blk-hist__casas figure{margin:0;overflow:hidden;border-radius:var(--r-lg);background:var(--bg);border:1px solid var(--line)}
+.blk-hist__casas img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover}
+.blk-hist__casas figcaption{padding:var(--sp-3) var(--sp-4);font-size:var(--t-sm);color:var(--ink-soft)}
+.blk-hist__casas figcaption strong{display:block;font-family:var(--f-display);font-size:1.2rem;color:var(--ink)}
+@media (min-width:48rem){.blk-hist__casas{grid-template-columns:1fr 1fr}}
+@media (min-width:64rem){
+  .blk-hist__in{grid-template-columns:5fr 7fr;gap:var(--sp-6,6rem);align-items:center}
+  .blk-hist__casas figure:last-child{transform:translateY(3rem)}
+}
+</style>

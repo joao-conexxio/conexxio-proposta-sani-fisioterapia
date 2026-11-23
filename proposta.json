@@ -1,0 +1,191 @@
+{
+  "slug": "sani-fisioterapia",
+  "negocio": {
+    "nome": "Sani Centro de Fisioterapia",
+    "logo": "brand/logo-lockup.png",
+    "whatsapp": "5547997640047",
+    "unidades": [
+      {
+        "bairro": "Itaum · Zona Sul",
+        "endereco": "R. Monsenhor Gercino, 3304 – Itaum, Joinville – SC, 89208-387",
+        "telefone": "(47) 3423-0063 · WhatsApp (47) 99764-0047",
+        "horario": "Fisioterapia, pilates e pediatria. Horários pelo WhatsApp."
+      },
+      {
+        "bairro": "Boa Vista · Zona Leste",
+        "endereco": "R. Ten. Paulo Lopes, 218 – Iririú, Joinville – SC, 89227-690",
+        "telefone": "(47) 3434-1968 · WhatsApp (47) 99628-6708",
+        "horario": "Fisioterapia, pilates e Espaço Cuide-se Bem. Horários pelo WhatsApp."
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#00808A",
+    "brand2": "#005F67",
+    "ink": "#0E2A2F",
+    "bg": "#F5FAFB",
+    "pulse": "#12B0BA",
+    "radius": "10px",
+    "registro": "clinico",
+    "fontDisplay": "Outfit",
+    "fontBody": "Open Sans",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          { "texto": "Tratamentos", "href": "#tratamentos" },
+          { "texto": "Pilates", "href": "#pilates" },
+          { "texto": "31 anos", "href": "#historia" },
+          { "texto": "Unidades", "href": "#unidades" }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "Fisioterapia em Joinville",
+        "h1": "Voltar a se mexer sem dor, perto de casa",
+        "lead": "Ortopedia, neurologia, pediatria, RPG e pilates em duas unidades, no Itaum e no Boa Vista. Prestador Ouro da Unimed Joinville.",
+        "cta": "Agendar avaliação",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "imagem": "midia/final/fachada-itaum.jpg",
+        "imagemAlt": "Fachada da Sani Centro de Fisioterapia no Itaum, com o letreiro da clínica",
+        "tarja": [
+          "Cuidando de Joinville desde 1995",
+          "Selo Prestador Ouro Unimed Joinville",
+          "Duas unidades: Itaum e Boa Vista",
+          "Nota 4,8 no Google, 179 avaliações",
+          "Pilates com aula experimental"
+        ]
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "inclinada",
+      "data": {
+        "itens": ["Ortopedia", "Traumatologia", "Neurologia", "Pediatria", "RPG", "Fisioterapia respiratória", "Pilates", "Eletroestimulação", "Liberação miofascial", "Drenagem linfática"]
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "O que tratamos",
+        "lead": "Todo tratamento começa por uma avaliação. É nela que o fisioterapeuta entende a queixa, define o objetivo e monta o plano de sessões.",
+        "itens": [
+          { "nome": "Ortopedia e traumatologia", "descricao": "Dor na coluna, no ombro ou no joelho, entorse, fratura, tendinite e reabilitação depois de cirurgia. O foco é tirar a dor e devolver o movimento do dia a dia.", "icone": "osso" },
+          { "nome": "Reabilitação neurológica", "descricao": "Acompanhamento depois de AVC e em outras condições neurológicas, trabalhando equilíbrio, força e autonomia para as tarefas de casa.", "icone": "cerebro" },
+          { "nome": "Fisioterapia pediátrica", "descricao": "Atendimento a bebês e crianças, com sessões pensadas como brincadeira e a família por perto, orientada sobre o que fazer em casa.", "icone": "bebe" },
+          { "nome": "RPG · Reeducação Postural Global", "descricao": "Posturas mantidas e alongamento global para corrigir a postura e aliviar as dores que vêm dela.", "icone": "coluna" },
+          { "nome": "Fisioterapia respiratória", "descricao": "Exercícios e técnicas para respirar melhor e eliminar secreção, em quadros respiratórios agudos e crônicos.", "icone": "pulmao" },
+          { "nome": "Eletroestimulação e liberação miofascial", "descricao": "Recursos que entram no plano quando ajudam: corrente elétrica para fortalecer e aliviar a dor, técnicas manuais para soltar a musculatura tensa.", "icone": "mao" },
+          { "nome": "Espaço Cuide-se Bem", "descricao": "Massagem e drenagem linfática para quem quer cuidar do corpo também fora do tratamento.", "icone": "spa" }
+        ]
+      }
+    },
+    { "custom": "blocos/pilates.html" },
+    {
+      "id": "conversa",
+      "variant": "celular",
+      "data": {
+        "eyebrow": "Pelo WhatsApp",
+        "titulo": "Pedido médico na mão? Dá para marcar em poucas mensagens",
+        "lead": "A recepção confirma o convênio, sugere a unidade mais perto e já reserva a avaliação.",
+        "cta": "Chamar a Sani",
+        "contato": "Sani Fisioterapia · Itaum",
+        "mensagens": [
+          { "de": "paciente", "texto": "Oi! Tenho pedido de fisioterapia para o joelho. Vocês atendem Unimed?" },
+          { "de": "clinica", "texto": "Oi! Atendemos sim, somos prestador Unimed Joinville. Fica melhor para você o Itaum ou o Boa Vista?" },
+          { "de": "paciente", "texto": "Itaum, de preferência depois das 17h." },
+          { "de": "clinica", "texto": "Tenho quinta às 17h30 para a avaliação. Traga o pedido médico e a carteirinha. Posso reservar?" },
+          { "de": "paciente", "texto": "Pode sim, obrigada!" }
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "vivo",
+      "data": {
+        "titulo": "Três décadas em Joinville",
+        "itens": [
+          { "valor": "31", "rotulo": "anos de clínica, desde 1995", "contar": 31 },
+          { "valor": "2", "rotulo": "unidades, no Itaum e no Boa Vista" },
+          { "valor": "4,8", "rotulo": "nota no Google, com 179 avaliações" },
+          { "valor": "Ouro", "rotulo": "selo de prestador da Unimed Joinville" }
+        ]
+      }
+    },
+    { "custom": "blocos/historia.html" },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Como funciona o tratamento",
+        "itens": [
+          { "titulo": "Agendamento", "texto": "Pelo WhatsApp da unidade. Se for pelo convênio, tenha à mão o pedido médico e a carteirinha.", "icone": "conversa" },
+          { "titulo": "Avaliação", "texto": "O fisioterapeuta ouve a queixa, examina e explica o que vai ser feito e por quê.", "icone": "estetoscopio" },
+          { "titulo": "Plano de sessões", "texto": "Frequência e número de sessões definidos para o seu caso, em horários que cabem na sua rotina.", "icone": "agenda" },
+          { "titulo": "Alta com orientação", "texto": "Você sai com exercícios para casa e sabe o que fazer para a dor não voltar.", "icone": "check" }
+        ]
+      }
+    },
+    {
+      "id": "galeria",
+      "variant": "reels",
+      "data": {
+        "titulo": "Por trás das portas da Sani",
+        "lead": "O dia a dia das duas unidades, do jeito que a equipe mostra no Instagram.",
+        "perfil": { "texto": "@sanicentrodefisioterapia", "href": "https://www.instagram.com/sanicentrodefisioterapia/" },
+        "itens": [
+          { "imagem": "midia/final/reel-portas.jpg", "legenda": "Um pouco do que acontece por trás das portas", "link": "https://www.instagram.com/clinicasani_itaum/" },
+          { "imagem": "midia/final/reel-caro.jpg", "legenda": "“Mas fisioterapia é caro”", "link": "https://www.instagram.com/sanicentrodefisioterapia/" },
+          { "imagem": "midia/final/reel-miofascial.jpg", "legenda": "Para que serve a liberação miofascial", "link": "https://www.instagram.com/clinicasani_itaum/" },
+          { "imagem": "midia/final/reel-31anos.jpg", "legenda": "31 anos cuidando de você", "link": "https://www.instagram.com/sanicentrodefisioterapia/" },
+          { "imagem": "midia/final/reel-historia.jpg", "legenda": "Você faz parte da nossa história", "link": "https://www.instagram.com/sanicentrodefisioterapia/" }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "acordeao",
+      "data": {
+        "titulo": "Antes de agendar",
+        "itens": [
+          { "p": "Vocês atendem Unimed?", "r": "Sim. A Sani é prestadora da Unimed Joinville, com o selo Prestador Ouro. Para outros convênios, pergunte pelo WhatsApp da unidade." },
+          { "p": "Preciso de pedido médico?", "r": "Pelo convênio, sim: traga o pedido e a carteirinha na avaliação. No particular, o fisioterapeuta pode avaliar você diretamente." },
+          { "p": "Quantas sessões vou precisar?", "r": "Depende da queixa e do objetivo. O número e a frequência são definidos na avaliação e revistos ao longo do tratamento." },
+          { "p": "Vocês atendem crianças?", "r": "Sim, a Sani tem fisioterapia pediátrica, para bebês e crianças, com a família acompanhando as sessões." },
+          { "p": "Posso experimentar o pilates antes de fechar?", "r": "Pode. As duas unidades oferecem aula experimental. Escolha o horário na grade acima e chame no WhatsApp." }
+        ]
+      }
+    },
+    { "id": "unidades", "variant": "cartoes", "data": { "titulo": "Duas unidades em Joinville" } },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Vamos marcar sua avaliação?",
+        "lead": "Conte pelo WhatsApp o que está sentindo e qual unidade fica melhor. A recepção responde com o próximo horário livre.",
+        "cta": "Chamar no WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "assinatura",
+      "data": {
+        "links": [
+          { "texto": "Tratamentos", "href": "#tratamentos" },
+          { "texto": "Pilates", "href": "#pilates" },
+          { "texto": "Unidades", "href": "#unidades" }
+        ]
+      }
+    }
+  ]
+}
